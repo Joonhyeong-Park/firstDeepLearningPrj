@@ -3,15 +3,15 @@ DNN with FDS data from Caggle
 
 1. 텐서플로, 넘파이, 판다스 import
 2. 필요한 함수 선언
-1. split_train_test(data, test_ratio)
-    데이터셋을 train, test 데이터로 test_ratio에 따라 나누는 함수
-2. MinMaxScaler
-    데이터셋을 표준화 시키는 함수
-    3. 데이터셋 읽어오기
+    1. split_train_test(data, test_ratio)
+        데이터셋을 train, test 데이터로 test_ratio에 따라 나누는 함수
+    2. MinMaxScaler
+        데이터셋을 표준화 시키는 함수
+3. 데이터셋 읽어오기
 4. MinMaxScaler 함수를 통해 데이터셋 표준화
-5. 5. split_train_test 함수로 70%의 train_set, 30%의 test_set 나누기
+5. split_train_test 함수로 70%의 train_set, 30%의 test_set 나누기
 6. train, test 데이터셋 개수 출력 및 x변수, y변수 나누기
-7. 7. learning rate 설정
+7. learning rate 설정
 learning_rate를 0.01로 설정했을 때 cost가 가장 낮아짐을 확인
 8. layer 설계
 activation function으로 sigmoid를 사용함
