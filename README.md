@@ -1,7 +1,7 @@
 # firstDeepLearningPrj
 DNN with FDS data from Caggle
 
-Project 기간 : 2019년 1
+Project 기간 : 2019년 1학기
 
 1. 텐서플로, 넘파이, 판다스 import
 2. 필요한 함수 선언
